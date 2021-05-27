@@ -20,7 +20,7 @@ form.addEventListener('submit', function(event: Event){
   
   for (var i:number = 0; i<lista.length; i++){
     console.log(lista[i] + ' ' + [i])
-    // AddLista(lista[i])
+    
            
     li.innerText = lista[i]
     lis?.appendChild(li)   

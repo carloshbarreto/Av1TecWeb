@@ -13,7 +13,6 @@ form.addEventListener('submit', function (event) {
     console.clear();
     for (var i = 0; i < lista.length; i++) {
         console.log(lista[i] + ' ' + [i]);
-        // AddLista(lista[i])
         li.innerText = lista[i];
         lis === null || lis === void 0 ? void 0 : lis.appendChild(li);
         if (i != 0) {
